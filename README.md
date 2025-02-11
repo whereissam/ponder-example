@@ -38,6 +38,7 @@ Ponder automatically generates a frontend-ready GraphQL API based on your `ponde
 the server will run in `http://localhost:42069/`
 
 If you want to query like the picture. You first need to know the `id` of this `depositEvent` you want to query. 
+![ponder graph](https://github.com/whereissam/ponder-example/blob/main/ponder-graphql.jpeg)
 
 You can get the `id` from log the event ID like below
 ```typescript
