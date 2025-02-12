@@ -68,7 +68,13 @@ and paste it to GraphQL and you can query it.
 
 
 ### Frontend
-1. Run `bun i`
+1. cd to frontend folder
+
+```bash
+cd frontend
+```
+
+2. Run `bun i`
 
 ```bash
 npm install 
@@ -80,7 +86,7 @@ yarn install
 bun install
 ```
 
-1. Start the development frontend
+3. Start the development frontend
 
 ```bash
 npm run dev
@@ -91,10 +97,10 @@ yarn dev
 # or 
 bun dev
 ```
-2. Visit `localhost:3000` in your browser
+4. Visit `localhost:3000` in your browser
 
 
-
+![](https://github.com/whereissam/ponder-example/blob/main/frontend.jpeg)
 
 
 That's it! Visit [ponder.sh](https://ponder.sh) for documentation, guides for deploying to production, and the API reference.
