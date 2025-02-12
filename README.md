@@ -3,7 +3,8 @@
 Ponder is an open-source framework for blockchain application backends.
 ## Quickstart
 
-### 1. Run `bun i`
+### Server
+1. Run `bun i`
 
 ```bash
 npm install 
@@ -14,13 +15,13 @@ yarn install
 # or 
 bun install
 ```
-### 2. Add `.env` file
+2. Add `.env` file
 
 ```bash
 cp .env.example. .env
 ```
 
-### 3. Start the development server
+3. Start the development server
 
 ```bash
 npm run dev
@@ -31,7 +32,7 @@ yarn dev
 # or 
 bun dev
 ```
-### 4. Query the GraphQL API
+4. Query the GraphQL API
 
 Ponder automatically generates a frontend-ready GraphQL API based on your `ponder.schema.ts` file. The API serves data that you inserted in your indexing functions.
 
@@ -64,6 +65,37 @@ Synced 5 logs and 5 transactions from 'base' block 26246920
 ```
 
 and paste it to GraphQL and you can query it.
+
+
+### Frontend
+1. Run `bun i`
+
+```bash
+npm install 
+# or
+pnpm install
+# or
+yarn install
+# or 
+bun install
+```
+
+1. Start the development frontend
+
+```bash
+npm run dev
+# or
+pnpm dev
+# or
+yarn dev
+# or 
+bun dev
+```
+2. Visit `localhost:3000` in your browser
+
+
+
+
 
 That's it! Visit [ponder.sh](https://ponder.sh) for documentation, guides for deploying to production, and the API reference.
 
